@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#rm -rf ./Perfecto/PerfectoSwiftApp.xctestproducts
+xcodebuild clean build-for-testing -workspace PerfectoSwiftApp.xcworkspace -destination 'generic/platform=iOS Simulator,' -scheme PerfectoSwiftApp -testProductsPath ./Perfecto/PerfectoSwiftApp.xctestproducts

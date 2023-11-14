@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  PerfectoSwiftApp
+
+  Created by Hristo Genev on 14.10.23.
+  
+*/
+"Error" = "Error";
+
+"LoginScreen.UsernameField.Title" = "Username";
+"LoginScreen.PasswordField.Title" = "Password";
+"LoginScreen.LoginButton.Title" = "Login";
+"LoginScreen.Form.Title" = "Welcome to the Perfecto Support Demo App. To continue, use the form to login with any perfecto/perforce email and password P@ssw0rd. Otherwise the validation will fail. Alternatively use Biometrics.";
+
+"LoginScreen.With.Biometrics" = "Login with Biometrics";
+"LoginScreen.Login.Guest" = "Login as Guest";
+"LoginScreen.Invalid.Email" = "The email is not in a valid format";
+"LoginScreen.Invalid.Credentials" = "The credentials are invalid";
+"LoginScreen.Failed" = "Login failed! Check your credentials!";
+"LoginScreen.Empty.Password" = "Empty password!";

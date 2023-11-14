@@ -1,0 +1,40 @@
+{
+  "cloudURL": "demo.perfectomobile.com",
+  "appPath": "/Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftApp.app",
+  "testAppPath": "/Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftAppUITests-Runner.app",
+  "devices": [
+    {
+      "platformName": "iOS",
+      "platformVersion": "16.*",
+      "__deviceName": "00008030-00194CCE2100802E"
+    }
+  ],
+  "testMethodNames": [
+    "LoginTests#testLoginFailsWithEmptyCredentials",
+    "LoginTests#testLoginWorksWithValidPerfectoEmailAndPassword",
+    "LoginTests#testLoginAsGuest"
+  ],
+  "__testMethodNames": [
+    "LoginTests#testLoginFailsWithEmptyCredentials",
+    "LoginTests#testLoginFailsWithInvalidEmail",
+    "LoginTests#testLoginFailsWithValidEmailAndWrongPassword",
+    "LoginTests#testLoginWorksWithValidPerfectoEmailAndPassword",
+    "LoginTests#testLoginWorksWithValidPerforceEmailAndPassword",
+    "LoginTests#testTogglePasswordVisibilityShowsPassword",
+    "LoginTests#testLoginAsGuest"
+  ],
+  "_testClassNames": [],
+  "runUnitTests": false,
+  "runUITests": true,
+  "installationDetails": {
+    "preCleanUp": true,
+    "resign": true
+  },
+  "debug": false,
+  "postExecution": {
+    "uninstall": false
+  },
+  "testTimeout": 180000,
+  "jobName": "Perfecto-SwiftUIApp",
+  "jobNumber": 10
+}

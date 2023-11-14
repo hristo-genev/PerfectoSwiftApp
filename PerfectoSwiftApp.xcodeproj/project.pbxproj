@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7931CCA9CBB7559AC27546 /* Pods_PerfectoSwiftAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */; };
+		134BBA1780B2C19242576661 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */; };
+		3B3851BD2AE2A9CB00553999 /*  LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3851BC2AE2A9CB00553999 /*  LandingScreen.swift */; };
+		3B6A98332AD92D480004D5EF /* PerfectoSwiftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98322AD92D480004D5EF /* PerfectoSwiftAppApp.swift */; };
+		3B6A98352AD92D480004D5EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98342AD92D480004D5EF /* ContentView.swift */; };
+		3B6A98372AD92D490004D5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A98362AD92D490004D5EF /* Assets.xcassets */; };
+		3B6A983A2AD92D490004D5EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A98392AD92D490004D5EF /* Preview Assets.xcassets */; };
+		3B6A98442AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98432AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift */; };
+		3B6A984E2AD92D4A0004D5EF /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */; };
+		3BA0CA492ADAB51A00A1A1BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0CA4B2ADAB51A00A1A1BC /* Localizable.strings */; };
+		3BA0CA502ADAB66D00A1A1BC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA4F2ADAB66D00A1A1BC /* StringExtensions.swift */; };
+		3BA0CA542ADAB7D500A1A1BC /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0CA532ADAB7D500A1A1BC /* .swiftlint.yml */; };
+		3BA0CA582ADAB96300A1A1BC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA572ADAB96300A1A1BC /* LoginViewModel.swift */; };
+		3BA0CA602ADD752E00A1A1BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */; };
+		3BA0CA662AE0105700A1A1BC /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA652AE0105700A1A1BC /* AuthError.swift */; };
+		3BA0CA682AE010D100A1A1BC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */; };
+		3BC974632AD97EA000C23D3D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC974622AD97EA000C23D3D /* Launch Screen.storyboard */; };
+		3BC974702ADAAEA100C23D3D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */; };
+		FF5EDCDD9F7185EB644BACB2 /* Pods_PerfectoSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B6A98402AD92D4A0004D5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6A98272AD92D480004D5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6A982E2AD92D480004D5EF;
+			remoteInfo = PerfectoSwiftApp;
+		};
+		3B6A984A2AD92D4A0004D5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6A98272AD92D480004D5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6A982E2AD92D480004D5EF;
+			remoteInfo = PerfectoSwiftApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3851BC2AE2A9CB00553999 /*  LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LandingScreen.swift"; sourceTree = "<group>"; };
+		3B6A982F2AD92D480004D5EF /* PerfectoSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectoSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6A98322AD92D480004D5EF /* PerfectoSwiftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectoSwiftAppApp.swift; sourceTree = "<group>"; };
+		3B6A98342AD92D480004D5EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B6A98362AD92D490004D5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6A98392AD92D490004D5EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B6A983F2AD92D4A0004D5EF /* PerfectoSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectoSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6A98432AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectoSwiftAppTests.swift; sourceTree = "<group>"; };
+		3B6A98492AD92D4A0004D5EF /* PerfectoSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectoSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		3BA0CA4A2ADAB51A00A1A1BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3BA0CA4C2ADAB52700A1A1BC /* bg-BG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bg-BG"; path = "bg-BG.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3BA0CA4D2ADAB55D00A1A1BC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3BA0CA4F2ADAB66D00A1A1BC /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		3BA0CA532ADAB7D500A1A1BC /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		3BA0CA572ADAB96300A1A1BC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3BA0CA652AE0105700A1A1BC /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3BC974622AD97EA000C23D3D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CE14C1D202D59B235758A /* Pods-PerfectoSwiftAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftAppTests/Pods-PerfectoSwiftAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76DF4AD6285A5D319D39F9DE /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2929357B34EB8F89A2003D /* Pods-PerfectoSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp/Pods-PerfectoSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7DD61F4746DA544DEDFED1 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E330AE89927D1FAD33AE036F /* Pods-PerfectoSwiftAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftAppTests.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftAppTests/Pods-PerfectoSwiftAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E68CF267483A3F06D612C4B5 /* Pods-PerfectoSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp/Pods-PerfectoSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6A982C2AD92D480004D5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5EDCDD9F7185EB644BACB2 /* Pods_PerfectoSwiftApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A983C2AD92D4A0004D5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7931CCA9CBB7559AC27546 /* Pods_PerfectoSwiftAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A98462AD92D4A0004D5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134BBA1780B2C19242576661 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3851BB2AE2A9AB00553999 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				3B3851BC2AE2A9CB00553999 /*  LandingScreen.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		3B6A98262AD92D480004D5EF = {
+			isa = PBXGroup;
+			children = (
+				3BC974622AD97EA000C23D3D /* Launch Screen.storyboard */,
+				3B6A98312AD92D480004D5EF /* PerfectoSwiftApp */,
+				3B6A98422AD92D4A0004D5EF /* PerfectoSwiftAppTests */,
+				3B6A984C2AD92D4A0004D5EF /* PerfectoSwiftAppUITests */,
+				3B6A98302AD92D480004D5EF /* Products */,
+				7E54C90AFD378BBB229351CF /* Pods */,
+				B3FBAEA3C4968DFA789B95D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6A98302AD92D480004D5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A982F2AD92D480004D5EF /* PerfectoSwiftApp.app */,
+				3B6A983F2AD92D4A0004D5EF /* PerfectoSwiftAppTests.xctest */,
+				3B6A98492AD92D4A0004D5EF /* PerfectoSwiftAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6A98312AD92D480004D5EF /* PerfectoSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CA552ADAB8A900A1A1BC /* Resources */,
+				3BA0CA512ADAB6F000A1A1BC /* Config */,
+				3BA0CA452ADAB4A300A1A1BC /* SupportingFiles */,
+				3BC974672ADA656F00C23D3D /* Code */,
+				3B6A98382AD92D490004D5EF /* Preview Content */,
+			);
+			path = PerfectoSwiftApp;
+			sourceTree = "<group>";
+		};
+		3B6A98382AD92D490004D5EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A98392AD92D490004D5EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B6A98422AD92D4A0004D5EF /* PerfectoSwiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A98432AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift */,
+			);
+			path = PerfectoSwiftAppTests;
+			sourceTree = "<group>";
+		};
+		3B6A984C2AD92D4A0004D5EF /* PerfectoSwiftAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */,
+			);
+			path = PerfectoSwiftAppUITests;
+			sourceTree = "<group>";
+		};
+		3BA0CA452ADAB4A300A1A1BC /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A98342AD92D480004D5EF /* ContentView.swift */,
+				3B6A98322AD92D480004D5EF /* PerfectoSwiftAppApp.swift */,
+				3BA0CA462ADAB4C000A1A1BC /* Localization */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3BA0CA462ADAB4C000A1A1BC /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CA4B2ADAB51A00A1A1BC /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		3BA0CA4E2ADAB65100A1A1BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CA4F2ADAB66D00A1A1BC /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3BA0CA512ADAB6F000A1A1BC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CA532ADAB7D500A1A1BC /* .swiftlint.yml */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3BA0CA552ADAB8A900A1A1BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CA562ADAB8B700A1A1BC /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BA0CA562ADAB8B700A1A1BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A98362AD92D490004D5EF /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3BC974642ADA64D800C23D3D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3B3851BB2AE2A9AB00553999 /* Landing */,
+				3BC974662ADA64F800C23D3D /* Home */,
+				3BC974652ADA64ED00C23D3D /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3BC974652ADA64ED00C23D3D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */,
+				3BA0CA572ADAB96300A1A1BC /* LoginViewModel.swift */,
+				3BA0CA652AE0105700A1A1BC /* AuthError.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3BC974662ADA64F800C23D3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */,
+				3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3BC974672ADA656F00C23D3D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9746E2ADA660B00C23D3D /* Utilities */,
+				3BC974642ADA64D800C23D3D /* Features */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		3BC9746E2ADA660B00C23D3D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CA4E2ADAB65100A1A1BC /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7E54C90AFD378BBB229351CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F2929357B34EB8F89A2003D /* Pods-PerfectoSwiftApp.debug.xcconfig */,
+				E68CF267483A3F06D612C4B5 /* Pods-PerfectoSwiftApp.release.xcconfig */,
+				DE7DD61F4746DA544DEDFED1 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */,
+				76DF4AD6285A5D319D39F9DE /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */,
+				494CE14C1D202D59B235758A /* Pods-PerfectoSwiftAppTests.debug.xcconfig */,
+				E330AE89927D1FAD33AE036F /* Pods-PerfectoSwiftAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3FBAEA3C4968DFA789B95D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */,
+				960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */,
+				DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6A982E2AD92D480004D5EF /* PerfectoSwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6A98532AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftApp" */;
+			buildPhases = (
+				485F51DB78C6DEC8DB80A0D4 /* [CP] Check Pods Manifest.lock */,
+				3B6A982B2AD92D480004D5EF /* Sources */,
+				3B6A982C2AD92D480004D5EF /* Frameworks */,
+				3B6A982D2AD92D480004D5EF /* Resources */,
+				3BA0CA442ADAB37800A1A1BC /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectoSwiftApp;
+			productName = PerfectoSwiftApp;
+			productReference = 3B6A982F2AD92D480004D5EF /* PerfectoSwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B6A983E2AD92D4A0004D5EF /* PerfectoSwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6A98562AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftAppTests" */;
+			buildPhases = (
+				64BF2EB76B7022DB943C03F0 /* [CP] Check Pods Manifest.lock */,
+				3B6A983B2AD92D4A0004D5EF /* Sources */,
+				3B6A983C2AD92D4A0004D5EF /* Frameworks */,
+				3B6A983D2AD92D4A0004D5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6A98412AD92D4A0004D5EF /* PBXTargetDependency */,
+			);
+			name = PerfectoSwiftAppTests;
+			productName = PerfectoSwiftAppTests;
+			productReference = 3B6A983F2AD92D4A0004D5EF /* PerfectoSwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B6A98482AD92D4A0004D5EF /* PerfectoSwiftAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6A98592AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftAppUITests" */;
+			buildPhases = (
+				E0D6039E263F85D51A7610F1 /* [CP] Check Pods Manifest.lock */,
+				3B6A98452AD92D4A0004D5EF /* Sources */,
+				3B6A98462AD92D4A0004D5EF /* Frameworks */,
+				3B6A98472AD92D4A0004D5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6A984B2AD92D4A0004D5EF /* PBXTargetDependency */,
+			);
+			name = PerfectoSwiftAppUITests;
+			productName = PerfectoSwiftAppUITests;
+			productReference = 3B6A98492AD92D4A0004D5EF /* PerfectoSwiftAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6A98272AD92D480004D5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3B6A982E2AD92D480004D5EF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3B6A983E2AD92D4A0004D5EF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3B6A982E2AD92D480004D5EF;
+					};
+					3B6A98482AD92D4A0004D5EF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3B6A982E2AD92D480004D5EF;
+					};
+				};
+			};
+			buildConfigurationList = 3B6A982A2AD92D480004D5EF /* Build configuration list for PBXProject "PerfectoSwiftApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				"bg-BG",
+			);
+			mainGroup = 3B6A98262AD92D480004D5EF;
+			productRefGroup = 3B6A98302AD92D480004D5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6A982E2AD92D480004D5EF /* PerfectoSwiftApp */,
+				3B6A983E2AD92D4A0004D5EF /* PerfectoSwiftAppTests */,
+				3B6A98482AD92D4A0004D5EF /* PerfectoSwiftAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6A982D2AD92D480004D5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA0CA542ADAB7D500A1A1BC /* .swiftlint.yml in Resources */,
+				3BC974632AD97EA000C23D3D /* Launch Screen.storyboard in Resources */,
+				3BA0CA492ADAB51A00A1A1BC /* Localizable.strings in Resources */,
+				3B6A983A2AD92D490004D5EF /* Preview Assets.xcassets in Resources */,
+				3B6A98372AD92D490004D5EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A983D2AD92D4A0004D5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A98472AD92D4A0004D5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA0CA442ADAB37800A1A1BC /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"$SRCROOT/PerfectoSwiftApp/Config/.swiftlint.yml\"\n";
+		};
+		485F51DB78C6DEC8DB80A0D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectoSwiftApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64BF2EB76B7022DB943C03F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectoSwiftAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D6039E263F85D51A7610F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6A982B2AD92D480004D5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA0CA602ADD752E00A1A1BC /* HomeView.swift in Sources */,
+				3BC974702ADAAEA100C23D3D /* LoginScreen.swift in Sources */,
+				3B3851BD2AE2A9CB00553999 /*  LandingScreen.swift in Sources */,
+				3BA0CA502ADAB66D00A1A1BC /* StringExtensions.swift in Sources */,
+				3B6A98352AD92D480004D5EF /* ContentView.swift in Sources */,
+				3BA0CA662AE0105700A1A1BC /* AuthError.swift in Sources */,
+				3BA0CA682AE010D100A1A1BC /* HomeScreen.swift in Sources */,
+				3BA0CA582ADAB96300A1A1BC /* LoginViewModel.swift in Sources */,
+				3B6A98332AD92D480004D5EF /* PerfectoSwiftAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A983B2AD92D4A0004D5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6A98442AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6A98452AD92D4A0004D5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6A984E2AD92D4A0004D5EF /* LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6A98412AD92D4A0004D5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6A982E2AD92D480004D5EF /* PerfectoSwiftApp */;
+			targetProxy = 3B6A98402AD92D4A0004D5EF /* PBXContainerItemProxy */;
+		};
+		3B6A984B2AD92D4A0004D5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B6A982E2AD92D480004D5EF /* PerfectoSwiftApp */;
+			targetProxy = 3B6A984A2AD92D4A0004D5EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA0CA4B2ADAB51A00A1A1BC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA0CA4A2ADAB51A00A1A1BC /* en */,
+				3BA0CA4C2ADAB52700A1A1BC /* bg-BG */,
+				3BA0CA4D2ADAB55D00A1A1BC /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B6A98512AD92D4A0004D5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B6A98522AD92D4A0004D5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6A98542AD92D4A0004D5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2929357B34EB8F89A2003D /* Pods-PerfectoSwiftApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PerfectoSwiftApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R44H386RV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.PerfectoSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B6A98552AD92D4A0004D5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68CF267483A3F06D612C4B5 /* Pods-PerfectoSwiftApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PerfectoSwiftApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R44H386RV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.PerfectoSwiftApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B6A98572AD92D4A0004D5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494CE14C1D202D59B235758A /* Pods-PerfectoSwiftAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R44H386RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.swiftapp.PerfectoSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectoSwiftApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PerfectoSwiftApp";
+			};
+			name = Debug;
+		};
+		3B6A98582AD92D4A0004D5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E330AE89927D1FAD33AE036F /* Pods-PerfectoSwiftAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R44H386RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.swiftapp.PerfectoSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectoSwiftApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PerfectoSwiftApp";
+			};
+			name = Release;
+		};
+		3B6A985A2AD92D4A0004D5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7DD61F4746DA544DEDFED1 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R44H386RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.swiftapp.PerfectoSwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerfectoSwiftApp;
+			};
+			name = Debug;
+		};
+		3B6A985B2AD92D4A0004D5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DF4AD6285A5D319D39F9DE /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R44H386RV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.swiftapp.PerfectoSwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerfectoSwiftApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6A982A2AD92D480004D5EF /* Build configuration list for PBXProject "PerfectoSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6A98512AD92D4A0004D5EF /* Debug */,
+				3B6A98522AD92D4A0004D5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6A98532AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6A98542AD92D4A0004D5EF /* Debug */,
+				3B6A98552AD92D4A0004D5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6A98562AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6A98572AD92D4A0004D5EF /* Debug */,
+				3B6A98582AD92D4A0004D5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6A98592AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6A985A2AD92D4A0004D5EF /* Debug */,
+				3B6A985B2AD92D4A0004D5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6A98272AD92D480004D5EF /* Project object */;
+}

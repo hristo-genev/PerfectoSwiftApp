@@ -1,0 +1,6 @@
+framework module Pods_PerfectoSwiftApp {
+  umbrella header "Pods-PerfectoSwiftApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

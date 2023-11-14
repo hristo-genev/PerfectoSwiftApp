@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  PerfectoSwiftApp
+
+  Created by Hristo Genev on 14.10.23.
+  
+*/
+"Login.UsernameField.Title" = "Потребител";
+"Login.PasswordField.Title" = "Парола";
+"Login.LoginButton.Title" = "Вход";
+
+"Login.Form.Title" = "Use the form to login with any valid email and P@ssw0rd";

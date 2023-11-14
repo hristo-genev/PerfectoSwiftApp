@@ -1,0 +1,23 @@
+{
+  "cloudURL": "demo.perfectomobile.com",
+  "xctestProductPath": "/Users/hgenev/Git/PerfectoSwiftApp/PerfectoSwiftApp/PerfectoSwiftApp.xctestproducts",
+  "devices": [
+    {
+      "platformName": "iOS",
+      "platformVersion": "16.x"
+    }
+  ],
+  "runUnitTests": false,
+  "runUITests": true,
+  "installationDetails": {
+    "preCleanUp": true,
+    "resign": false
+  },
+  "debug": false,
+  "postExecution": {
+    "uninstall": false
+  },
+  "testTimeout": 180000,
+  "jobName": "Perfecto-SwiftUIApp",
+  "jobNumber": 1
+}

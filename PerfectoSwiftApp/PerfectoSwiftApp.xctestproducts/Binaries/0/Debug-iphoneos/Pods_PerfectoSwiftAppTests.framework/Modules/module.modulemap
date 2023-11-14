@@ -1,0 +1,6 @@
+framework module Pods_PerfectoSwiftAppTests {
+  umbrella header "Pods-PerfectoSwiftAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
