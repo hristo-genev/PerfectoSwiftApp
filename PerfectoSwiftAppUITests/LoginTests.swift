@@ -30,7 +30,7 @@ final class LoginTests: XCTestCase {
     
     func testLoginFailsWithInvalidEmail() throws {
         
-        login(username: "hristo.genev@gmail.com", password: "P@ssw0rd")
+        login("hristo.genev@gmail.com", "P@ssw0rd")
         XCTAssertTrue(app!.staticTexts["LoginScreen.errorMsg"].isHittable)
         takeScreenshot(name: "Login-Error")
     }
@@ -38,14 +38,14 @@ final class LoginTests: XCTestCase {
     
     func testLoginFailsWithValidEmailAndWrongPassword() throws {
         
-        login(username: "hgenev@perforce.com", password: "xxxxxx")
+        login("hgenev@perforce.com", "xxxxxx")
         XCTAssertTrue(app!.staticTexts["LoginScreen.errorMsg"].isHittable)
         takeScreenshot(name: "Login-Error")
     }
     
     func testLoginWorksWithValidPerfectoEmailAndPassword() throws {
         
-        login(username: "hristog@perfectomobile.com", password: "P@ssw0rd")
+        login("hristog@perfectomobile.com", "P@ssw0rd")
         XCTAssertTrue(app!.buttons["Log out"].isHittable)
         logout()
         XCTAssertTrue(app!.buttons["Login"].isHittable)
@@ -55,7 +55,7 @@ final class LoginTests: XCTestCase {
     
     func testLoginWorksWithValidPerforceEmailAndPassword() throws {
         
-        login(username: "hgenev@perforce.com", password: "P@ssw0rd")
+        login("hgenev@perforce.com", "P@ssw0rd")
         XCTAssertTrue(app!.buttons["Log out"].isHittable)
         logout()
         XCTAssertFalse(app!.staticTexts["LoginScreen.errorMsg"].isHittable)
@@ -73,8 +73,8 @@ final class LoginTests: XCTestCase {
     
     func testTogglePasswordVisibilityShowsPassword() throws {
         
-        app!.secureTextFields["Password"].tap()
-        app!.secureTextFields["Password"].typeText("P@ssw0rd")
+        app!.secureTextFields["LoginScreen.password"].tap()
+        app!.secureTextFields["LoginScreen.password"].typeText("P@ssw0rd")
         app!.buttons["LoginScreen.showPasswordBtn"].tap()
         
         XCTAssertFalse(app!.staticTexts["LoginScreen.passwordTxt"].isHittable)
@@ -82,30 +82,36 @@ final class LoginTests: XCTestCase {
     }
     
     
-    //
-    //    func testLaunchPerformance() throws {
-    //        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-    //            // This measures how long it takes to launch your application.
-    //            measure(metrics: [XCTApplicationLaunchMetric()]) {
-    //                XCUIApplication().launch()
-    //            }
-    //        }
-    //    }
+    func testCredentialsShouldBeClearedAfterLogout() {
+        login("hgenev@perforce.com", "P@ssw0rd")
+        XCTAssertTrue(app!.buttons["Log out"].isHittable)
+        logout()
+        XCTAssertTrue(app!.secureTextFields["LoginScreen.password"].hasNoText())
+    }
     
     
-    func login(username: String, password: String) {
+    func login(_ username: String, _ password: String) {
         app!.textFields["Username"].tap()
+        Utils.wait(1)
         app!.textFields["Username"].typeText(username)
+//        typeTextWithKeyboard(text: username)
         app!.secureTextFields["Password"].tap()
+        Utils.wait(1)
         app!.secureTextFields["Password"].typeText(password)
-        app!.buttons["Login"].tap()
+//        app!.buttons["LoginScreen.showPasswordBtn"].tap()
+        Utils.wait(1)
+        app!.buttons["LoginScreen.LoginBtn"].tap()
+        Utils.wait(1)
         takeScreenshot(name: "Logged-In")
     }
     
     func logout() {
         app!.buttons["Log out"].tap()
+        Utils.wait(1)
         takeScreenshot(name: "Logged-Out")
     }
+    
+    
     
     func takeScreenshot(name: String) {
         let fullScreenshot = XCUIScreen.main.screenshot()
@@ -113,5 +119,19 @@ final class LoginTests: XCTestCase {
         let screenshot = XCTAttachment(uniformTypeIdentifier: "public.png", name: "Screenshot-\(name)-\(UIDevice.current.name).png", payload: fullScreenshot.pngRepresentation, userInfo: nil)
         screenshot.lifetime = .keepAlways
         add(screenshot)
+    }
+    
+    func typeTextWithKeyboard(_ text: String) {
+        if app!.keyboards.keys.count == 0 {
+            return
+        }
+        
+        for char in text {
+            typeKey(char)
+        }
+    }
+    
+    func typeKey(_ key: Character) {
+        app!.keys[String(key)].tap()
     }
 }

@@ -112,6 +112,7 @@ struct LoginScreen: View {
                                     .cornerRadius(10)
                             }
                         )
+                        .accessibilityIdentifier("LoginScreen.LoginBtn")
                         
                         Button("LoginScreen.With.Biometrics".localized) {
                             print("Login with biometrics tapped!")

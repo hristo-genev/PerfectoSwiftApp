@@ -23,6 +23,7 @@
 		3BA0CA602ADD752E00A1A1BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */; };
 		3BA0CA662AE0105700A1A1BC /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA652AE0105700A1A1BC /* AuthError.swift */; };
 		3BA0CA682AE010D100A1A1BC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */; };
+		3BC144B92B04AAB5003EEEBF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC144B82B04AAB5003EEEBF /* Utils.swift */; };
 		3BC974632AD97EA000C23D3D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC974622AD97EA000C23D3D /* Launch Screen.storyboard */; };
 		3BC974702ADAAEA100C23D3D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */; };
 		FF5EDCDD9F7185EB644BACB2 /* Pods_PerfectoSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */; };
@@ -65,6 +66,7 @@
 		3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3BA0CA652AE0105700A1A1BC /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3BC144B82B04AAB5003EEEBF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3BC974622AD97EA000C23D3D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */,
+				3BC144B82B04AAB5003EEEBF /* Utils.swift */,
 			);
 			path = PerfectoSwiftAppUITests;
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6A984E2AD92D4A0004D5EF /* LoginTests.swift in Sources */,
+				3BC144B92B04AAB5003EEEBF /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

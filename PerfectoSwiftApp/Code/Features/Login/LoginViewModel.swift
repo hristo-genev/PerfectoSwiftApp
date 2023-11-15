@@ -36,7 +36,6 @@ class LoginViewModel: ObservableObject {
         
         isBusy = true
         
-        
         do {
             print("Sending HTTPS request")
             let (_, response) = try await URLSession.shared.data(from: URL(string: "https://github.io/")!)

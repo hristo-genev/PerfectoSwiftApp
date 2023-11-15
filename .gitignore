@@ -10,6 +10,12 @@ xcuserdata/
 *.xccheckout
 
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+.DS_Store
+Podfile.lock
+Pods/
+Perfecto/*.log
+Perfecto/PerfectoSwiftApp.xctestproducts
+Perfecto/.gradle
 build/
 DerivedData/
 *.moved-aside

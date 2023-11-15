@@ -68,7 +68,7 @@ struct HomeScreen: View {
                         label: {
                             Text("Open Webview")
                         }
-                    ).accessibilityIdentifier("HomeScreen.OpenWebview")
+                    ).accessibilityIdentifier("HomeScreen.openWebviewBtn")
                     
                     Button(
                         action: {
@@ -77,7 +77,7 @@ struct HomeScreen: View {
                         label: {
                             Text("Verify your location")
                         }
-                    ).accessibilityIdentifier("HomeScreen.OpenLocation")
+                    ).accessibilityIdentifier("HomeScreen.openLocationBtn")
                 }
                 
                 HStack {
@@ -88,7 +88,7 @@ struct HomeScreen: View {
                         label: {
                             Text("Test image injection")
                         }
-                    ).accessibilityIdentifier("HomeScreen.OpenImageInjection")
+                    ).accessibilityIdentifier("HomeScreen.openImageInjectionBtn")
                     
                     Button(
                         action: {
@@ -97,7 +97,7 @@ struct HomeScreen: View {
                         label: {
                             Text("Wanna scroll?")
                         }
-                    ).accessibilityIdentifier("HomeScreen.OpenScroll")
+                    ).accessibilityIdentifier("HomeScreen.openScrollBtn")
                 }
                 .padding(.top, 20)
             }
