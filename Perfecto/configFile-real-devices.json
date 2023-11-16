@@ -1,5 +1,5 @@
 {
-  "cloudURL": "adp.perfectomobile.com",
+  "cloudURL": "demo.perfectomobile.com",
   "appPath": "/Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftApp.app",
   "testAppPath": "/Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftAppUITests-Runner.app",
   "__appPath": "repository://PUBLIC:PerfectoSwiftApp.ipa",
@@ -8,8 +8,8 @@
     {
       "platformName": "iOS",
       "__platformVersion": "16.*",
-      "_deviceName": "00008103-000C44E83A33001E",
-      "deviceName": "00008030-0008049E34E1802E"
+      "deviceName": "00008103-000C44E83A33001E",
+      "adp_deviceName": "00008030-0008049E34E1802E"
     }
   ],
   "_testMethodNames": [
@@ -38,5 +38,5 @@
   },
   "testTimeout": 180000,
   "jobName": "Perfecto-SwiftUIApp",
-  "jobNumber": 30
+  "jobNumber": 32
 }
