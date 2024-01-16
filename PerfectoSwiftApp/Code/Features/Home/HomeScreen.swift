@@ -15,8 +15,7 @@ struct HomeScreen: View {
     var body: some View {
         
         let username = viewModel.username.isEmpty ? "Guest" : viewModel.username
-        let isGuest = viewModel.username == "Guest"
-        
+   
         VStack {
             Text("Hello \(username)")
                 .font(.title)
@@ -39,12 +38,15 @@ struct HomeScreen: View {
                                 switch result {
                                 case .success(true):
                                     isLoggedIn = false
+                                    
                                     print("Successfully logged in")
                                 case .failure(let error):
                                     isLoggedIn = true
+                                    
                                     print("Failed loggin in: \(error)")
                                 case .success(false):
                                     isLoggedIn = true
+                                    
                                     print("Failed loggin in")
                                 }
                             }

@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		0A7931CCA9CBB7559AC27546 /* Pods_PerfectoSwiftAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */; };
 		134BBA1780B2C19242576661 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */; };
+		3B2483142B555AF200049DA8 /* CustomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483132B555AF200049DA8 /* CustomerTests.swift */; };
+		3B2F010F2B07503F008F6D2B /* Username.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F010E2B07503F008F6D2B /* Username.swift */; };
+		3B2F01122B075107008F6D2B /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01112B075107008F6D2B /* Password.swift */; };
+		3B2F01142B07518E008F6D2B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01132B07518E008F6D2B /* LogoView.swift */; };
+		3B2F01162B0757E3008F6D2B /* ErrorMessageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01152B0757E3008F6D2B /* ErrorMessageText.swift */; };
 		3B3851BD2AE2A9CB00553999 /*  LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3851BC2AE2A9CB00553999 /*  LandingScreen.swift */; };
 		3B6A98332AD92D480004D5EF /* PerfectoSwiftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98322AD92D480004D5EF /* PerfectoSwiftAppApp.swift */; };
 		3B6A98352AD92D480004D5EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98342AD92D480004D5EF /* ContentView.swift */; };
@@ -47,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B2483132B555AF200049DA8 /* CustomerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTests.swift; sourceTree = "<group>"; };
+		3B2F010E2B07503F008F6D2B /* Username.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Username.swift; sourceTree = "<group>"; };
+		3B2F01112B075107008F6D2B /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		3B2F01132B07518E008F6D2B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		3B2F01152B0757E3008F6D2B /* ErrorMessageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageText.swift; sourceTree = "<group>"; };
 		3B3851BC2AE2A9CB00553999 /*  LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LandingScreen.swift"; sourceTree = "<group>"; };
 		3B6A982F2AD92D480004D5EF /* PerfectoSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectoSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6A98322AD92D480004D5EF /* PerfectoSwiftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectoSwiftAppApp.swift; sourceTree = "<group>"; };
@@ -108,6 +118,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B2F01102B0750DA008F6D2B /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				3B2F010E2B07503F008F6D2B /* Username.swift */,
+				3B2F01112B075107008F6D2B /* Password.swift */,
+				3B2F01132B07518E008F6D2B /* LogoView.swift */,
+				3B2F01152B0757E3008F6D2B /* ErrorMessageText.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
 		3B3851BB2AE2A9AB00553999 /* Landing */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +193,7 @@
 			children = (
 				3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */,
 				3BC144B82B04AAB5003EEEBF /* Utils.swift */,
+				3B2483132B555AF200049DA8 /* CustomerTests.swift */,
 			);
 			path = PerfectoSwiftAppUITests;
 			sourceTree = "<group>";
@@ -239,6 +261,7 @@
 		3BC974652ADA64ED00C23D3D /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3B2F01102B0750DA008F6D2B /* Elements */,
 				3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */,
 				3BA0CA572ADAB96300A1A1BC /* LoginViewModel.swift */,
 				3BA0CA652AE0105700A1A1BC /* AuthError.swift */,
@@ -521,10 +544,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2F01162B0757E3008F6D2B /* ErrorMessageText.swift in Sources */,
 				3BA0CA602ADD752E00A1A1BC /* HomeView.swift in Sources */,
+				3B2F01142B07518E008F6D2B /* LogoView.swift in Sources */,
+				3B2F010F2B07503F008F6D2B /* Username.swift in Sources */,
 				3BC974702ADAAEA100C23D3D /* LoginScreen.swift in Sources */,
 				3B3851BD2AE2A9CB00553999 /*  LandingScreen.swift in Sources */,
 				3BA0CA502ADAB66D00A1A1BC /* StringExtensions.swift in Sources */,
+				3B2F01122B075107008F6D2B /* Password.swift in Sources */,
 				3B6A98352AD92D480004D5EF /* ContentView.swift in Sources */,
 				3BA0CA662AE0105700A1A1BC /* AuthError.swift in Sources */,
 				3BA0CA682AE010D100A1A1BC /* HomeScreen.swift in Sources */,
@@ -545,6 +572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2483142B555AF200049DA8 /* CustomerTests.swift in Sources */,
 				3B6A984E2AD92D4A0004D5EF /* LoginTests.swift in Sources */,
 				3BC144B92B04AAB5003EEEBF /* Utils.swift in Sources */,
 			);
@@ -629,7 +657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -683,7 +711,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

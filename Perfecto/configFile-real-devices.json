@@ -1,19 +1,25 @@
 {
-  "cloudURL": "demo.perfectomobile.com",
-  "appPath": "/Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftApp.app",
-  "testAppPath": "/Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftAppUITests-Runner.app",
-  "__appPath": "repository://PUBLIC:PerfectoSwiftApp.ipa",
-  "__testAppPath": "repository://PUBLIC:PerfectoSwiftAppUITests-Runner.ipa",
+  "cloudURL": "singaporeairlines.perfectomobile.com",
+  "appPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftApp.Xcode150.ipa",
+  "testAppPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftAppUITests-Runner.Xcode150.ipa",
+  "140_appPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftApp.Xcode143.ipa",
+  "140_testAppPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftAppUITests-Runner.Xcode143.ipa",
+  "_appPath": "repository://PUBLIC:PerfectoSwiftApp.ipa",
+  "_testAppPath": "repository://PUBLIC:PerfectoSwiftAppUITests-Runner.ipa",
+  "___appPath": "./PerfectoSwiftApp.Xcode143.ipa",
+  "___testAppPath": "./PerfectoSwiftAppUITests-Runner.Xcode143.ipa",
+  "__testAppPath": "repository://PUBLIC:PerfectoSwiftAppUITests-Runner.Xcode143.ipa",
+  "__appPath": "repository://PUBLIC:PerfectoSwiftApp.Xcode143.ipa",
   "devices": [
     {
       "platformName": "iOS",
       "__platformVersion": "16.*",
-      "deviceName": "00008103-000C44E83A33001E",
-      "adp_deviceName": "00008030-0008049E34E1802E"
+      "sa_deviceName": "00008120-000909412283C01E",
+      "demo_deviceName": "00008101-00141C120EB9003A",
+      "cba_deviceName": "00008120-0000053422D8201E",
+      "deviceName": "00008120-000909412283C01E",
+      "_deviceName": "00008030-0008049E34E1802E"
     }
-  ],
-  "_testMethodNames": [
-    "LoginTests#testCredentialsShouldBeClearedAfterLogout"
   ],
   "__testMethodNames": [
     "LoginTests#testLoginFailsWithEmptyCredentials",
@@ -28,15 +34,16 @@
   "_testClassNames": [],
   "runUnitTests": false,
   "runUITests": true,
+  "generateHarFile": true,
   "installationDetails": {
     "preCleanUp": true,
     "resign": true
   },
   "debug": false,
   "postExecution": {
-    "uninstall": false
+    "uninstall": true
   },
   "testTimeout": 180000,
   "jobName": "Perfecto-SwiftUIApp",
-  "jobNumber": 32
+  "jobNumber": 67
 }
