@@ -10,15 +10,18 @@ import SwiftUI
 struct LogoView: View {
     
     var body: some View {
+        VStack {
+            
+            Image("perfectoLogo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding(10)
+                .padding(.top, 20)
 
-        Text("SwiftUI Demo")
-            .font(.title)
-        
-        Image("perfectoLogo")
-            .renderingMode(.original)
-            .resizable(resizingMode: .stretch)
-            .aspectRatio(contentMode: .fit)
-            .padding(.bottom, 60.0)
-            .padding(.top, 50.0)
+                Text("SwiftUI Demo App")
+                    .font(.title)
+                    .fontWeight(.light)
+                    .multilineTextAlignment(.center)
+        }
     }
 }

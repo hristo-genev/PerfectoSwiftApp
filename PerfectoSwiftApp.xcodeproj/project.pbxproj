@@ -10,6 +10,16 @@
 		0A7931CCA9CBB7559AC27546 /* Pods_PerfectoSwiftAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */; };
 		134BBA1780B2C19242576661 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */; };
 		3B2483142B555AF200049DA8 /* CustomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483132B555AF200049DA8 /* CustomerTests.swift */; };
+		3B2483182B56713000049DA8 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483172B56713000049DA8 /* MapScreen.swift */; };
+		3B24831A2B56741F00049DA8 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483192B56741F00049DA8 /* LocationHelper.swift */; };
+		3B24831D2B5679D600049DA8 /* WebviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24831C2B5679D600049DA8 /* WebviewScreen.swift */; };
+		3B24831F2B567AA700049DA8 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24831E2B567AA700049DA8 /* AppInfo.swift */; };
+		3B2483212B5697EB00049DA8 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483202B5697EB00049DA8 /* Enums.swift */; };
+		3B2483252B569A3600049DA8 /* ImageScannerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483242B569A3600049DA8 /* ImageScannerScreen.swift */; };
+		3B2483272B569A6B00049DA8 /* ScrollScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483262B569A6B00049DA8 /* ScrollScreen.swift */; };
+		3B2483292B56B32500049DA8 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483282B56B32500049DA8 /* LocationTests.swift */; };
+		3B24832B2B56B45D00049DA8 /* AuthenticationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24832A2B56B45D00049DA8 /* AuthenticationHelper.swift */; };
+		3B24832D2B581C9B00049DA8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24832C2B581C9B00049DA8 /* Extensions.swift */; };
 		3B2F010F2B07503F008F6D2B /* Username.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F010E2B07503F008F6D2B /* Username.swift */; };
 		3B2F01122B075107008F6D2B /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01112B075107008F6D2B /* Password.swift */; };
 		3B2F01142B07518E008F6D2B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01132B07518E008F6D2B /* LogoView.swift */; };
@@ -53,6 +63,17 @@
 
 /* Begin PBXFileReference section */
 		3B2483132B555AF200049DA8 /* CustomerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTests.swift; sourceTree = "<group>"; };
+		3B2483152B566D7500049DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B2483172B56713000049DA8 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		3B2483192B56741F00049DA8 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		3B24831C2B5679D600049DA8 /* WebviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewScreen.swift; sourceTree = "<group>"; };
+		3B24831E2B567AA700049DA8 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		3B2483202B5697EB00049DA8 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3B2483242B569A3600049DA8 /* ImageScannerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScannerScreen.swift; sourceTree = "<group>"; };
+		3B2483262B569A6B00049DA8 /* ScrollScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollScreen.swift; sourceTree = "<group>"; };
+		3B2483282B56B32500049DA8 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		3B24832A2B56B45D00049DA8 /* AuthenticationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHelper.swift; sourceTree = "<group>"; };
+		3B24832C2B581C9B00049DA8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3B2F010E2B07503F008F6D2B /* Username.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Username.swift; sourceTree = "<group>"; };
 		3B2F01112B075107008F6D2B /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
 		3B2F01132B07518E008F6D2B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
@@ -118,6 +139,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B2483162B56711700049DA8 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3B2483172B56713000049DA8 /* MapScreen.swift */,
+				3B2483192B56741F00049DA8 /* LocationHelper.swift */,
+				3B2483202B5697EB00049DA8 /* Enums.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		3B24831B2B5679C700049DA8 /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				3B24831C2B5679D600049DA8 /* WebviewScreen.swift */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
+		3B2483222B5699D700049DA8 /* ImageScanner */ = {
+			isa = PBXGroup;
+			children = (
+				3B2483242B569A3600049DA8 /* ImageScannerScreen.swift */,
+			);
+			path = ImageScanner;
+			sourceTree = "<group>";
+		};
+		3B2483232B5699F300049DA8 /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				3B2483262B569A6B00049DA8 /* ScrollScreen.swift */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
 		3B2F01102B0750DA008F6D2B /* Elements */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +218,7 @@
 		3B6A98312AD92D480004D5EF /* PerfectoSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B2483152B566D7500049DA8 /* Info.plist */,
 				3BA0CA552ADAB8A900A1A1BC /* Resources */,
 				3BA0CA512ADAB6F000A1A1BC /* Config */,
 				3BA0CA452ADAB4A300A1A1BC /* SupportingFiles */,
@@ -194,6 +250,9 @@
 				3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */,
 				3BC144B82B04AAB5003EEEBF /* Utils.swift */,
 				3B2483132B555AF200049DA8 /* CustomerTests.swift */,
+				3B2483282B56B32500049DA8 /* LocationTests.swift */,
+				3B24832A2B56B45D00049DA8 /* AuthenticationHelper.swift */,
+				3B24832C2B581C9B00049DA8 /* Extensions.swift */,
 			);
 			path = PerfectoSwiftAppUITests;
 			sourceTree = "<group>";
@@ -251,9 +310,14 @@
 		3BC974642ADA64D800C23D3D /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3B2483232B5699F300049DA8 /* Scroll */,
+				3B2483222B5699D700049DA8 /* ImageScanner */,
+				3B24831B2B5679C700049DA8 /* Webview */,
+				3B2483162B56711700049DA8 /* Location */,
 				3B3851BB2AE2A9AB00553999 /* Landing */,
 				3BC974662ADA64F800C23D3D /* Home */,
 				3BC974652ADA64ED00C23D3D /* Login */,
+				3B24831E2B567AA700049DA8 /* AppInfo.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -551,9 +615,16 @@
 				3BC974702ADAAEA100C23D3D /* LoginScreen.swift in Sources */,
 				3B3851BD2AE2A9CB00553999 /*  LandingScreen.swift in Sources */,
 				3BA0CA502ADAB66D00A1A1BC /* StringExtensions.swift in Sources */,
+				3B2483212B5697EB00049DA8 /* Enums.swift in Sources */,
+				3B2483252B569A3600049DA8 /* ImageScannerScreen.swift in Sources */,
+				3B24831D2B5679D600049DA8 /* WebviewScreen.swift in Sources */,
 				3B2F01122B075107008F6D2B /* Password.swift in Sources */,
 				3B6A98352AD92D480004D5EF /* ContentView.swift in Sources */,
+				3B24831A2B56741F00049DA8 /* LocationHelper.swift in Sources */,
 				3BA0CA662AE0105700A1A1BC /* AuthError.swift in Sources */,
+				3B2483182B56713000049DA8 /* MapScreen.swift in Sources */,
+				3B24831F2B567AA700049DA8 /* AppInfo.swift in Sources */,
+				3B2483272B569A6B00049DA8 /* ScrollScreen.swift in Sources */,
 				3BA0CA682AE010D100A1A1BC /* HomeScreen.swift in Sources */,
 				3BA0CA582ADAB96300A1A1BC /* LoginViewModel.swift in Sources */,
 				3B6A98332AD92D480004D5EF /* PerfectoSwiftAppApp.swift in Sources */,
@@ -573,7 +644,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B2483142B555AF200049DA8 /* CustomerTests.swift in Sources */,
+				3B24832D2B581C9B00049DA8 /* Extensions.swift in Sources */,
+				3B24832B2B56B45D00049DA8 /* AuthenticationHelper.swift in Sources */,
 				3B6A984E2AD92D4A0004D5EF /* LoginTests.swift in Sources */,
+				3B2483292B56B32500049DA8 /* LocationTests.swift in Sources */,
 				3BC144B92B04AAB5003EEEBF /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -734,7 +808,12 @@
 				DEVELOPMENT_TEAM = 5R44H386RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectoSwiftApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -768,7 +847,12 @@
 				DEVELOPMENT_TEAM = 5R44H386RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PerfectoSwiftApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

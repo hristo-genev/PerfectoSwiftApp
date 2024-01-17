@@ -12,14 +12,12 @@ class Utils {
     static func wait(_ seconds: Int) {
         Thread.sleep(forTimeInterval: 1)
     }
-}
-
-extension XCUIElement {
-    func hasNoText() -> Bool {
-        return self.value == nil || self.value as? String == ""
-    }
     
-    func hasText() -> Bool {
-        return self.value != nil && self.value as? String != ""
+    static func getScreenshot(name: String) -> XCTAttachment {
+        let fullScreenshot = XCUIScreen.main.screenshot()
+        
+        let screenshot = XCTAttachment(uniformTypeIdentifier: "public.png", name: "Screenshot-\(name)-\(UIDevice.current.name).png", payload: fullScreenshot.pngRepresentation, userInfo: nil)
+        screenshot.lifetime = .keepAlways
+        return screenshot
     }
 }

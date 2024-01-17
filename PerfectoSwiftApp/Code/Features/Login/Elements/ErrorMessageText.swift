@@ -13,11 +13,13 @@ struct ErrorMessageText: View {
     @Binding var isErrorHidden: Bool
     
     var body: some View {
-        Text(loginErrorMessage)
-            .font(.footnote)
-            .foregroundColor(Color.red)
-            .frame(width: .infinity, height: 20)
-            .opacity(isErrorHidden ? 1 : 0)
-            .accessibilityIdentifier("LoginScreen.errorMsg")
+        HStack {
+            Text(loginErrorMessage)
+                .font(.footnote)
+                .foregroundColor(Color.red)
+                .frame(width: .infinity, height: 20)
+                .opacity(isErrorHidden ? 1 : 0)
+                .accessibilityIdentifier("LoginScreen.errorMsg")
+        }
     }
 }

@@ -10,10 +10,13 @@ import XCTest
 final class LoginTests: XCTestCase {
     
     var app: XCUIApplication!
+    var auth: AuthenticationHelper!
     
     override func setUpWithError() throws {
         app = XCUIApplication()
         app.launch()
+        auth = AuthenticationHelper(app)
+        
         continueAfterFailure = false
     }
     
@@ -25,29 +28,29 @@ final class LoginTests: XCTestCase {
         
         app.buttons["Login"].tap()
         XCTAssertTrue(app.staticTexts["LoginScreen.errorMsg"].isHittable)
-        takeScreenshot(name: "Login-Error")
+        add(Utils.getScreenshot(name: "Login-error"))
     }
     
     func testLoginFailsWithInvalidEmail() throws {
         
-        login("hristo.genev@gmail.com", "P@ssw0rd")
+        auth.login("hristo.genev@gmail.com", "P@ssw0rd")
         XCTAssertTrue(app.staticTexts["LoginScreen.errorMsg"].isHittable)
-        takeScreenshot(name: "Login-Error")
+        add(Utils.getScreenshot(name: "Login-error"))
     }
     
     
     func testLoginFailsWithValidEmailAndWrongPassword() throws {
         
-        login("hgenev@perforce.com", "xxxxxx")
+        auth.login("hgenev@perforce.com", "xxxxxx")
         XCTAssertTrue(app.staticTexts["LoginScreen.errorMsg"].isHittable)
-        takeScreenshot(name: "Login-Error")
+        add(Utils.getScreenshot(name: "Login-error"))
     }
     
     func testLoginWorksWithValidPerfectoEmailAndPassword() throws {
         
-        login("hristog@perfectomobile.com", "P@ssw0rd")
+        auth.login("hristog@perfectomobile.com", "P@ssw0rd")
         XCTAssertTrue(app.buttons["Log out"].isHittable)
-        logout()
+        auth.logout()
         XCTAssertTrue(app.buttons["Login"].isHittable)
         XCTAssertFalse(app.staticTexts["LoginScreen.errorMsg"].isHittable)
         
@@ -55,9 +58,9 @@ final class LoginTests: XCTestCase {
     
     func testLoginWorksWithValidPerforceEmailAndPassword() throws {
         
-        login("hgenev@perforce.com", "P@ssw0rd")
+        auth.login("hgenev@perforce.com", "P@ssw0rd")
         XCTAssertTrue(app.buttons["Log out"].isHittable)
-        logout()
+        auth.logout()
         XCTAssertFalse(app.staticTexts["LoginScreen.errorMsg"].isHittable)
     }
     
@@ -65,9 +68,9 @@ final class LoginTests: XCTestCase {
     func testLoginAsGuest() throws {
         
         app.buttons["LoginScreen.loginAsGuest"].tap()
-        takeScreenshot(name: "Logged-In")
+        add(Utils.getScreenshot(name: "Logged-In"))
         XCTAssertTrue(app.buttons["Log out"].isHittable)
-        logout()
+        auth.logout()
         XCTAssertTrue(app.buttons["Login"].isHittable)
     }
     
@@ -78,60 +81,14 @@ final class LoginTests: XCTestCase {
         app.buttons["LoginScreen.showPasswordBtn"].tap()
         
         XCTAssertFalse(app.staticTexts["LoginScreen.passwordTxt"].isHittable)
-        takeScreenshot(name: "Password-Displayed")
+        add(Utils.getScreenshot(name: "Password-Displayed"))
     }
     
     
     func testCredentialsShouldBeClearedAfterLogout() {
-        login("hgenev@perforce.com", "P@ssw0rd")
+        auth.login("hgenev@perforce.com", "P@ssw0rd")
         XCTAssertTrue(app.buttons["Log out"].isHittable)
-        logout()
+        auth.logout()
         XCTAssertTrue(app.secureTextFields["LoginScreen.password"].hasNoText())
-    }
-    
-    
-    func login(_ username: String, _ password: String) {
-        app.textFields["Username"].tap()
-        Utils.wait(1)
-        app.textFields["Username"].typeText(username)
-//        typeTextWithKeyboard(text: username)
-        app.secureTextFields["Password"].tap()
-        Utils.wait(1)
-        app.secureTextFields["Password"].typeText(password)
-//        app.buttons["LoginScreen.showPasswordBtn"].tap()
-        Utils.wait(1)
-        app.buttons["LoginScreen.LoginBtn"].tap()
-        Utils.wait(1)
-        takeScreenshot(name: "Logged-In")
-    }
-    
-    func logout() {
-        app.buttons["Log out"].tap()
-        Utils.wait(1)
-        takeScreenshot(name: "Logged-Out")
-    }
-    
-    
-    
-    func takeScreenshot(name: String) {
-        let fullScreenshot = XCUIScreen.main.screenshot()
-        
-        let screenshot = XCTAttachment(uniformTypeIdentifier: "public.png", name: "Screenshot-\(name)-\(UIDevice.current.name).png", payload: fullScreenshot.pngRepresentation, userInfo: nil)
-        screenshot.lifetime = .keepAlways
-        add(screenshot)
-    }
-    
-    func typeTextWithKeyboard(_ text: String) {
-        if app.keyboards.keys.count == 0 {
-            return
-        }
-        
-        for char in text {
-            typeKey(char)
-        }
-    }
-    
-    func typeKey(_ key: Character) {
-        app.keys[String(key)].tap()
     }
 }

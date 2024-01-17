@@ -50,6 +50,11 @@
                BlueprintName = "PerfectoSwiftAppUITests"
                ReferencedContainer = "container:PerfectoSwiftApp.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "CustomerTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>

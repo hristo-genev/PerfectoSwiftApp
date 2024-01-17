@@ -1,7 +1,9 @@
 {
   "cloudURL": "singaporeairlines.perfectomobile.com",
-  "appPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftApp.Xcode150.ipa",
-  "testAppPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftAppUITests-Runner.Xcode150.ipa",
+  "appPath": "/Users/hgenev/Library/Developer/Xcode/DerivedData/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftApp.app",
+  "testAppPath": "/Users/hgenev/Library/Developer/Xcode/DerivedData/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftAppUITests-Runner.app",
+  "150_appPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftApp.Xcode150.ipa",
+  "150_testAppPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftAppUITests-Runner.Xcode150.ipa",
   "140_appPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftApp.Xcode143.ipa",
   "140_testAppPath": "/Users/hgenev/Git/PerfectoSwiftApp/Perfecto/PerfectoSwiftAppUITests-Runner.Xcode143.ipa",
   "_appPath": "repository://PUBLIC:PerfectoSwiftApp.ipa",
@@ -14,11 +16,10 @@
     {
       "platformName": "iOS",
       "__platformVersion": "16.*",
-      "sa_deviceName": "00008120-000909412283C01E",
+      "deviceName": "00008110-000858810AD1401E",
       "demo_deviceName": "00008101-00141C120EB9003A",
       "cba_deviceName": "00008120-0000053422D8201E",
-      "deviceName": "00008120-000909412283C01E",
-      "_deviceName": "00008030-0008049E34E1802E"
+      "__deviceName": "00008030-000524860E82802E"
     }
   ],
   "__testMethodNames": [
@@ -45,5 +46,5 @@
   },
   "testTimeout": 180000,
   "jobName": "Perfecto-SwiftUIApp",
-  "jobNumber": 67
+  "jobNumber": 79
 }
