@@ -7,41 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A7931CCA9CBB7559AC27546 /* Pods_PerfectoSwiftAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */; };
-		134BBA1780B2C19242576661 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */; };
+		3ABF3AB8380A7E718F699D8F /* Pods_PerfectoSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F836CDDD8D6CFF2A3124FAC9 /* Pods_PerfectoSwiftApp.framework */; };
 		3B2483142B555AF200049DA8 /* CustomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483132B555AF200049DA8 /* CustomerTests.swift */; };
 		3B2483182B56713000049DA8 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483172B56713000049DA8 /* MapScreen.swift */; };
 		3B24831A2B56741F00049DA8 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483192B56741F00049DA8 /* LocationHelper.swift */; };
 		3B24831D2B5679D600049DA8 /* WebviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24831C2B5679D600049DA8 /* WebviewScreen.swift */; };
-		3B24831F2B567AA700049DA8 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24831E2B567AA700049DA8 /* AppInfo.swift */; };
+		3B24831F2B567AA700049DA8 /* AppInfoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24831E2B567AA700049DA8 /* AppInfoLink.swift */; };
 		3B2483212B5697EB00049DA8 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483202B5697EB00049DA8 /* Enums.swift */; };
 		3B2483252B569A3600049DA8 /* ImageScannerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483242B569A3600049DA8 /* ImageScannerScreen.swift */; };
 		3B2483272B569A6B00049DA8 /* ScrollScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483262B569A6B00049DA8 /* ScrollScreen.swift */; };
 		3B2483292B56B32500049DA8 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2483282B56B32500049DA8 /* LocationTests.swift */; };
 		3B24832B2B56B45D00049DA8 /* AuthenticationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24832A2B56B45D00049DA8 /* AuthenticationHelper.swift */; };
 		3B24832D2B581C9B00049DA8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24832C2B581C9B00049DA8 /* Extensions.swift */; };
+		3B24832F2B58239000049DA8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B24832E2B58239000049DA8 /* WebView.swift */; };
 		3B2F010F2B07503F008F6D2B /* Username.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F010E2B07503F008F6D2B /* Username.swift */; };
 		3B2F01122B075107008F6D2B /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01112B075107008F6D2B /* Password.swift */; };
 		3B2F01142B07518E008F6D2B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01132B07518E008F6D2B /* LogoView.swift */; };
 		3B2F01162B0757E3008F6D2B /* ErrorMessageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2F01152B0757E3008F6D2B /* ErrorMessageText.swift */; };
 		3B3851BD2AE2A9CB00553999 /*  LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3851BC2AE2A9CB00553999 /*  LandingScreen.swift */; };
+		3B3DB9F72B5E647C001D74F0 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3DB9F62B5E647C001D74F0 /* ViewExtensions.swift */; };
 		3B6A98332AD92D480004D5EF /* PerfectoSwiftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98322AD92D480004D5EF /* PerfectoSwiftAppApp.swift */; };
 		3B6A98352AD92D480004D5EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98342AD92D480004D5EF /* ContentView.swift */; };
 		3B6A98372AD92D490004D5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A98362AD92D490004D5EF /* Assets.xcassets */; };
 		3B6A983A2AD92D490004D5EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6A98392AD92D490004D5EF /* Preview Assets.xcassets */; };
 		3B6A98442AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A98432AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift */; };
 		3B6A984E2AD92D4A0004D5EF /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */; };
+		3B8165B92B590950006BC341 /* SafariWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165B82B590950006BC341 /* SafariWebview.swift */; };
+		3B8165BC2B590C3F006BC341 /* WebviewLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165BB2B590C3F006BC341 /* WebviewLinks.swift */; };
+		3B8165BE2B590FE8006BC341 /* MapLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165BD2B590FE8006BC341 /* MapLink.swift */; };
+		3B8165C02B591451006BC341 /* ScannerLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165BF2B591451006BC341 /* ScannerLink.swift */; };
+		3B8165C22B59150F006BC341 /* GesturesLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165C12B59150F006BC341 /* GesturesLink.swift */; };
+		3B8165C42B59547E006BC341 /* BiometricIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165C32B59547E006BC341 /* BiometricIDAuth.swift */; };
+		3B8165C62B597485006BC341 /* WebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165C52B597485006BC341 /* WebviewTests.swift */; };
+		3B8165C82B5AC7A9006BC341 /* AppInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8165C72B5AC7A9006BC341 /* AppInfoScreen.swift */; };
 		3BA0CA492ADAB51A00A1A1BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0CA4B2ADAB51A00A1A1BC /* Localizable.strings */; };
 		3BA0CA502ADAB66D00A1A1BC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA4F2ADAB66D00A1A1BC /* StringExtensions.swift */; };
 		3BA0CA542ADAB7D500A1A1BC /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0CA532ADAB7D500A1A1BC /* .swiftlint.yml */; };
 		3BA0CA582ADAB96300A1A1BC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA572ADAB96300A1A1BC /* LoginViewModel.swift */; };
-		3BA0CA602ADD752E00A1A1BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */; };
 		3BA0CA662AE0105700A1A1BC /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA652AE0105700A1A1BC /* AuthError.swift */; };
 		3BA0CA682AE010D100A1A1BC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */; };
 		3BC144B92B04AAB5003EEEBF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC144B82B04AAB5003EEEBF /* Utils.swift */; };
 		3BC974632AD97EA000C23D3D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC974622AD97EA000C23D3D /* Launch Screen.storyboard */; };
 		3BC974702ADAAEA100C23D3D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */; };
-		FF5EDCDD9F7185EB644BACB2 /* Pods_PerfectoSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */; };
+		3EFCD191F2A8DE7CB9B4A8EA /* Pods_PerfectoSwiftAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDB9CAE2928ED550825D57 /* Pods_PerfectoSwiftAppTests.framework */; };
+		8355AB056D4D7B32F4786506 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DF87B0BFA881B15061AF30 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,23 +71,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27ADA0FCF92225C19E38C000 /* Pods-PerfectoSwiftAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftAppTests.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftAppTests/Pods-PerfectoSwiftAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3B2483132B555AF200049DA8 /* CustomerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTests.swift; sourceTree = "<group>"; };
 		3B2483152B566D7500049DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3B2483172B56713000049DA8 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		3B2483192B56741F00049DA8 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 		3B24831C2B5679D600049DA8 /* WebviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewScreen.swift; sourceTree = "<group>"; };
-		3B24831E2B567AA700049DA8 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		3B24831E2B567AA700049DA8 /* AppInfoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoLink.swift; sourceTree = "<group>"; };
 		3B2483202B5697EB00049DA8 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		3B2483242B569A3600049DA8 /* ImageScannerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScannerScreen.swift; sourceTree = "<group>"; };
 		3B2483262B569A6B00049DA8 /* ScrollScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollScreen.swift; sourceTree = "<group>"; };
 		3B2483282B56B32500049DA8 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		3B24832A2B56B45D00049DA8 /* AuthenticationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHelper.swift; sourceTree = "<group>"; };
 		3B24832C2B581C9B00049DA8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3B24832E2B58239000049DA8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		3B2F010E2B07503F008F6D2B /* Username.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Username.swift; sourceTree = "<group>"; };
 		3B2F01112B075107008F6D2B /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
 		3B2F01132B07518E008F6D2B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		3B2F01152B0757E3008F6D2B /* ErrorMessageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageText.swift; sourceTree = "<group>"; };
 		3B3851BC2AE2A9CB00553999 /*  LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LandingScreen.swift"; sourceTree = "<group>"; };
+		3B3DB9F62B5E647C001D74F0 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		3B6A982F2AD92D480004D5EF /* PerfectoSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectoSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6A98322AD92D480004D5EF /* PerfectoSwiftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectoSwiftAppApp.swift; sourceTree = "<group>"; };
 		3B6A98342AD92D480004D5EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,27 +100,33 @@
 		3B6A98432AD92D4A0004D5EF /* PerfectoSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectoSwiftAppTests.swift; sourceTree = "<group>"; };
 		3B6A98492AD92D4A0004D5EF /* PerfectoSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectoSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6A984D2AD92D4A0004D5EF /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		3B8165B82B590950006BC341 /* SafariWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebview.swift; sourceTree = "<group>"; };
+		3B8165BB2B590C3F006BC341 /* WebviewLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewLinks.swift; sourceTree = "<group>"; };
+		3B8165BD2B590FE8006BC341 /* MapLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLink.swift; sourceTree = "<group>"; };
+		3B8165BF2B591451006BC341 /* ScannerLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerLink.swift; sourceTree = "<group>"; };
+		3B8165C12B59150F006BC341 /* GesturesLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesLink.swift; sourceTree = "<group>"; };
+		3B8165C32B59547E006BC341 /* BiometricIDAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricIDAuth.swift; sourceTree = "<group>"; };
+		3B8165C52B597485006BC341 /* WebviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewTests.swift; sourceTree = "<group>"; };
+		3B8165C72B5AC7A9006BC341 /* AppInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoScreen.swift; sourceTree = "<group>"; };
 		3BA0CA4A2ADAB51A00A1A1BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3BA0CA4C2ADAB52700A1A1BC /* bg-BG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bg-BG"; path = "bg-BG.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3BA0CA4D2ADAB55D00A1A1BC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3BA0CA4F2ADAB66D00A1A1BC /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		3BA0CA532ADAB7D500A1A1BC /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		3BA0CA572ADAB96300A1A1BC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3BA0CA652AE0105700A1A1BC /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		3BC144B82B04AAB5003EEEBF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3BC974622AD97EA000C23D3D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
-		3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		494CE14C1D202D59B235758A /* Pods-PerfectoSwiftAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftAppTests/Pods-PerfectoSwiftAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		76DF4AD6285A5D319D39F9DE /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F2929357B34EB8F89A2003D /* Pods-PerfectoSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp/Pods-PerfectoSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE7DD61F4746DA544DEDFED1 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E330AE89927D1FAD33AE036F /* Pods-PerfectoSwiftAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftAppTests.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftAppTests/Pods-PerfectoSwiftAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		E68CF267483A3F06D612C4B5 /* Pods-PerfectoSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp/Pods-PerfectoSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		7A1605DAAFEAC049A6549C0C /* Pods-PerfectoSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp/Pods-PerfectoSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		80B405C15BD4E4C1165C93B6 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A01E08C8584E76DF2A2959B6 /* Pods-PerfectoSwiftAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftAppTests/Pods-PerfectoSwiftAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BACDB9CAE2928ED550825D57 /* Pods_PerfectoSwiftAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D397C7FC6607F6E53AB7F15E /* Pods-PerfectoSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp/Pods-PerfectoSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E57723AB5A30E7F10C692E64 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests/Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4DF87B0BFA881B15061AF30 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F836CDDD8D6CFF2A3124FAC9 /* Pods_PerfectoSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectoSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF5EDCDD9F7185EB644BACB2 /* Pods_PerfectoSwiftApp.framework in Frameworks */,
+				3ABF3AB8380A7E718F699D8F /* Pods_PerfectoSwiftApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7931CCA9CBB7559AC27546 /* Pods_PerfectoSwiftAppTests.framework in Frameworks */,
+				3EFCD191F2A8DE7CB9B4A8EA /* Pods_PerfectoSwiftAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134BBA1780B2C19242576661 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */,
+				8355AB056D4D7B32F4786506 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				3B24831C2B5679D600049DA8 /* WebviewScreen.swift */,
+				3B24832E2B58239000049DA8 /* WebView.swift */,
+				3B8165B82B590950006BC341 /* SafariWebview.swift */,
 			);
 			path = Webview;
 			sourceTree = "<group>";
@@ -201,7 +221,7 @@
 				3B6A984C2AD92D4A0004D5EF /* PerfectoSwiftAppUITests */,
 				3B6A98302AD92D480004D5EF /* Products */,
 				7E54C90AFD378BBB229351CF /* Pods */,
-				B3FBAEA3C4968DFA789B95D3 /* Frameworks */,
+				60D455539440C83C38E86B89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,8 +273,20 @@
 				3B2483282B56B32500049DA8 /* LocationTests.swift */,
 				3B24832A2B56B45D00049DA8 /* AuthenticationHelper.swift */,
 				3B24832C2B581C9B00049DA8 /* Extensions.swift */,
+				3B8165C52B597485006BC341 /* WebviewTests.swift */,
 			);
 			path = PerfectoSwiftAppUITests;
+			sourceTree = "<group>";
+		};
+		3B8165BA2B590C1A006BC341 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				3B8165BB2B590C3F006BC341 /* WebviewLinks.swift */,
+				3B8165BD2B590FE8006BC341 /* MapLink.swift */,
+				3B8165BF2B591451006BC341 /* ScannerLink.swift */,
+				3B8165C12B59150F006BC341 /* GesturesLink.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 		3BA0CA452ADAB4A300A1A1BC /* SupportingFiles */ = {
@@ -279,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				3BA0CA4F2ADAB66D00A1A1BC /* StringExtensions.swift */,
+				3B3DB9F62B5E647C001D74F0 /* ViewExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -310,6 +343,7 @@
 		3BC974642ADA64D800C23D3D /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3B24831E2B567AA700049DA8 /* AppInfoLink.swift */,
 				3B2483232B5699F300049DA8 /* Scroll */,
 				3B2483222B5699D700049DA8 /* ImageScanner */,
 				3B24831B2B5679C700049DA8 /* Webview */,
@@ -317,7 +351,7 @@
 				3B3851BB2AE2A9AB00553999 /* Landing */,
 				3BC974662ADA64F800C23D3D /* Home */,
 				3BC974652ADA64ED00C23D3D /* Login */,
-				3B24831E2B567AA700049DA8 /* AppInfo.swift */,
+				3B8165C72B5AC7A9006BC341 /* AppInfoScreen.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -329,6 +363,7 @@
 				3BC9746F2ADAAEA100C23D3D /* LoginScreen.swift */,
 				3BA0CA572ADAB96300A1A1BC /* LoginViewModel.swift */,
 				3BA0CA652AE0105700A1A1BC /* AuthError.swift */,
+				3B8165C32B59547E006BC341 /* BiometricIDAuth.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -336,7 +371,7 @@
 		3BC974662ADA64F800C23D3D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3BA0CA5F2ADD752E00A1A1BC /* HomeView.swift */,
+				3B8165BA2B590C1A006BC341 /* Elements */,
 				3BA0CA672AE010D100A1A1BC /* HomeScreen.swift */,
 			);
 			path = Home;
@@ -359,27 +394,27 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		60D455539440C83C38E86B89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F836CDDD8D6CFF2A3124FAC9 /* Pods_PerfectoSwiftApp.framework */,
+				F4DF87B0BFA881B15061AF30 /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */,
+				BACDB9CAE2928ED550825D57 /* Pods_PerfectoSwiftAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E54C90AFD378BBB229351CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9F2929357B34EB8F89A2003D /* Pods-PerfectoSwiftApp.debug.xcconfig */,
-				E68CF267483A3F06D612C4B5 /* Pods-PerfectoSwiftApp.release.xcconfig */,
-				DE7DD61F4746DA544DEDFED1 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */,
-				76DF4AD6285A5D319D39F9DE /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */,
-				494CE14C1D202D59B235758A /* Pods-PerfectoSwiftAppTests.debug.xcconfig */,
-				E330AE89927D1FAD33AE036F /* Pods-PerfectoSwiftAppTests.release.xcconfig */,
+				D397C7FC6607F6E53AB7F15E /* Pods-PerfectoSwiftApp.debug.xcconfig */,
+				7A1605DAAFEAC049A6549C0C /* Pods-PerfectoSwiftApp.release.xcconfig */,
+				E57723AB5A30E7F10C692E64 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */,
+				80B405C15BD4E4C1165C93B6 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */,
+				A01E08C8584E76DF2A2959B6 /* Pods-PerfectoSwiftAppTests.debug.xcconfig */,
+				27ADA0FCF92225C19E38C000 /* Pods-PerfectoSwiftAppTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B3FBAEA3C4968DFA789B95D3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3EC0D0467E9457F644E05D97 /* Pods_PerfectoSwiftApp.framework */,
-				960A7DB1C07A6A9B8E17839F /* Pods_PerfectoSwiftApp_PerfectoSwiftAppUITests.framework */,
-				DDE236A1BA297F1202436EC3 /* Pods_PerfectoSwiftAppTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,7 +424,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6A98532AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftApp" */;
 			buildPhases = (
-				485F51DB78C6DEC8DB80A0D4 /* [CP] Check Pods Manifest.lock */,
+				E9140E2DB388F6AF2FB5834F /* [CP] Check Pods Manifest.lock */,
 				3B6A982B2AD92D480004D5EF /* Sources */,
 				3B6A982C2AD92D480004D5EF /* Frameworks */,
 				3B6A982D2AD92D480004D5EF /* Resources */,
@@ -408,7 +443,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6A98562AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftAppTests" */;
 			buildPhases = (
-				64BF2EB76B7022DB943C03F0 /* [CP] Check Pods Manifest.lock */,
+				1CB0A17BD0A177F626612FDE /* [CP] Check Pods Manifest.lock */,
 				3B6A983B2AD92D4A0004D5EF /* Sources */,
 				3B6A983C2AD92D4A0004D5EF /* Frameworks */,
 				3B6A983D2AD92D4A0004D5EF /* Resources */,
@@ -427,7 +462,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B6A98592AD92D4A0004D5EF /* Build configuration list for PBXNativeTarget "PerfectoSwiftAppUITests" */;
 			buildPhases = (
-				E0D6039E263F85D51A7610F1 /* [CP] Check Pods Manifest.lock */,
+				97AFA4639D8FCA09D86F7FD5 /* [CP] Check Pods Manifest.lock */,
 				3B6A98452AD92D4A0004D5EF /* Sources */,
 				3B6A98462AD92D4A0004D5EF /* Frameworks */,
 				3B6A98472AD92D4A0004D5EF /* Resources */,
@@ -517,47 +552,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3BA0CA442ADAB37800A1A1BC /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"$SRCROOT/PerfectoSwiftApp/Config/.swiftlint.yml\"\n";
-		};
-		485F51DB78C6DEC8DB80A0D4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PerfectoSwiftApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		64BF2EB76B7022DB943C03F0 /* [CP] Check Pods Manifest.lock */ = {
+		1CB0A17BD0A177F626612FDE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -579,7 +574,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0D6039E263F85D51A7610F1 /* [CP] Check Pods Manifest.lock */ = {
+		3BA0CA442ADAB37800A1A1BC /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"$SRCROOT/PerfectoSwiftApp/Config/.swiftlint.yml\"\n";
+		};
+		97AFA4639D8FCA09D86F7FD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -601,6 +614,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E9140E2DB388F6AF2FB5834F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectoSwiftApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -609,13 +644,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B2F01162B0757E3008F6D2B /* ErrorMessageText.swift in Sources */,
-				3BA0CA602ADD752E00A1A1BC /* HomeView.swift in Sources */,
 				3B2F01142B07518E008F6D2B /* LogoView.swift in Sources */,
 				3B2F010F2B07503F008F6D2B /* Username.swift in Sources */,
+				3B8165C02B591451006BC341 /* ScannerLink.swift in Sources */,
 				3BC974702ADAAEA100C23D3D /* LoginScreen.swift in Sources */,
+				3B8165C42B59547E006BC341 /* BiometricIDAuth.swift in Sources */,
 				3B3851BD2AE2A9CB00553999 /*  LandingScreen.swift in Sources */,
+				3B8165BC2B590C3F006BC341 /* WebviewLinks.swift in Sources */,
+				3B24832F2B58239000049DA8 /* WebView.swift in Sources */,
 				3BA0CA502ADAB66D00A1A1BC /* StringExtensions.swift in Sources */,
 				3B2483212B5697EB00049DA8 /* Enums.swift in Sources */,
+				3B8165C22B59150F006BC341 /* GesturesLink.swift in Sources */,
 				3B2483252B569A3600049DA8 /* ImageScannerScreen.swift in Sources */,
 				3B24831D2B5679D600049DA8 /* WebviewScreen.swift in Sources */,
 				3B2F01122B075107008F6D2B /* Password.swift in Sources */,
@@ -623,11 +662,15 @@
 				3B24831A2B56741F00049DA8 /* LocationHelper.swift in Sources */,
 				3BA0CA662AE0105700A1A1BC /* AuthError.swift in Sources */,
 				3B2483182B56713000049DA8 /* MapScreen.swift in Sources */,
-				3B24831F2B567AA700049DA8 /* AppInfo.swift in Sources */,
+				3B24831F2B567AA700049DA8 /* AppInfoLink.swift in Sources */,
 				3B2483272B569A6B00049DA8 /* ScrollScreen.swift in Sources */,
 				3BA0CA682AE010D100A1A1BC /* HomeScreen.swift in Sources */,
+				3B3DB9F72B5E647C001D74F0 /* ViewExtensions.swift in Sources */,
 				3BA0CA582ADAB96300A1A1BC /* LoginViewModel.swift in Sources */,
+				3B8165C82B5AC7A9006BC341 /* AppInfoScreen.swift in Sources */,
+				3B8165B92B590950006BC341 /* SafariWebview.swift in Sources */,
 				3B6A98332AD92D480004D5EF /* PerfectoSwiftAppApp.swift in Sources */,
+				3B8165BE2B590FE8006BC341 /* MapLink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +688,7 @@
 			files = (
 				3B2483142B555AF200049DA8 /* CustomerTests.swift in Sources */,
 				3B24832D2B581C9B00049DA8 /* Extensions.swift in Sources */,
+				3B8165C62B597485006BC341 /* WebviewTests.swift in Sources */,
 				3B24832B2B56B45D00049DA8 /* AuthenticationHelper.swift in Sources */,
 				3B6A984E2AD92D4A0004D5EF /* LoginTests.swift in Sources */,
 				3B2483292B56B32500049DA8 /* LocationTests.swift in Sources */,
@@ -797,7 +841,7 @@
 		};
 		3B6A98542AD92D4A0004D5EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2929357B34EB8F89A2003D /* Pods-PerfectoSwiftApp.debug.xcconfig */;
+			baseConfigurationReference = D397C7FC6607F6E53AB7F15E /* Pods-PerfectoSwiftApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -811,6 +855,7 @@
 				INFOPLIST_FILE = PerfectoSwiftApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please allow us to use biometrics authentication";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
@@ -836,7 +881,7 @@
 		};
 		3B6A98552AD92D4A0004D5EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68CF267483A3F06D612C4B5 /* Pods-PerfectoSwiftApp.release.xcconfig */;
+			baseConfigurationReference = 7A1605DAAFEAC049A6549C0C /* Pods-PerfectoSwiftApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -850,6 +895,7 @@
 				INFOPLIST_FILE = PerfectoSwiftApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please allow us to use biometrics authentication";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to know where you are!!! Just kidding. For test purposes only.";
@@ -875,7 +921,7 @@
 		};
 		3B6A98572AD92D4A0004D5EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 494CE14C1D202D59B235758A /* Pods-PerfectoSwiftAppTests.debug.xcconfig */;
+			baseConfigurationReference = A01E08C8584E76DF2A2959B6 /* Pods-PerfectoSwiftAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -883,6 +929,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5R44H386RV;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.swiftapp.PerfectoSwiftAppTests;
@@ -896,7 +943,7 @@
 		};
 		3B6A98582AD92D4A0004D5EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E330AE89927D1FAD33AE036F /* Pods-PerfectoSwiftAppTests.release.xcconfig */;
+			baseConfigurationReference = 27ADA0FCF92225C19E38C000 /* Pods-PerfectoSwiftAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -904,6 +951,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5R44H386RV;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.perfecto.swiftapp.PerfectoSwiftAppTests;
@@ -917,7 +965,7 @@
 		};
 		3B6A985A2AD92D4A0004D5EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE7DD61F4746DA544DEDFED1 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */;
+			baseConfigurationReference = E57723AB5A30E7F10C692E64 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -936,7 +984,7 @@
 		};
 		3B6A985B2AD92D4A0004D5EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76DF4AD6285A5D319D39F9DE /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */;
+			baseConfigurationReference = 80B405C15BD4E4C1165C93B6 /* Pods-PerfectoSwiftApp-PerfectoSwiftAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

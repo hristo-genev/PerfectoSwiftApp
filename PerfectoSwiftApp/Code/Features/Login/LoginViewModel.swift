@@ -73,13 +73,16 @@ class LoginViewModel: ObservableObject {
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
                 
                 if success {
+                    print("Login with biometrics succeeded")
                 } else {
+                    print("Login with biometrics failed")
                 }
             }
             
             isLoggedIn = true
             return completion(.success(true))
         } else {
+            print("Biometric authentication unavailable!")
             return completion(.failure(.sensorAuthenticationFailed))
         }
     }

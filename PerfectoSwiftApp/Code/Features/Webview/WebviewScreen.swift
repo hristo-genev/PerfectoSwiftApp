@@ -9,14 +9,24 @@ import SwiftUI
 
 struct WebviewScreen: View {
 
-    var body: some View {
-        VStack {
-            Text("Not implemented yet!")
-                .fontWeight(.light)
-                .font(.title)
-            
+    @State private var isPresentWebView = false
+
+        
+        var body: some View {
+            Button("Open WebView") {
+                isPresentWebView = true
+            }
+            .sheet(isPresented: $isPresentWebView) {
+                if #available(iOS 16, *) {
+                    NavigationStack {
+                        WebView(url: URL(string: "https://duckduckgo.com")!)
+                            .ignoresSafeArea()
+                            .navigationTitle("Webview")
+                            .navigationBarTitleDisplayMode(.inline)
+                    }
+                }
+            }
         }
-    }
 }
 
 

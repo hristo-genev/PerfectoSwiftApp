@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 extension String {
     var localized: String {
@@ -15,3 +16,4 @@ extension String {
         return String(format: self.localized, arguments: arguments)
     }
 }
+

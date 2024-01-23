@@ -12,9 +12,3 @@ create_ipa() {
 
 create_ipa /Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftApp.app PerfectoSwiftApp.ipa
 create_ipa /Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftAppUITests-Runner.app PerfectoSwiftAppUITests-Runner.ipa
-
-# app_path="/Users/hgenev/DerivedData_Xcode/PerfectoSwiftApp-fwgvlcwbxtcagicjerrhutccunes/Build/Products/Debug-iphoneos/PerfectoSwiftApp.app"
-# mkdir Payload
-# cp -R $app_path ./Payload/
-# zip -r PerfectoSwiftApp.ipa ./Payload
-# rm -r ./Payload

@@ -11,10 +11,12 @@ struct HomeScreen: View {
     
     @Binding var isLoggedIn: Bool
     @EnvironmentObject var viewModel: LoginViewModel
+    @State private var isPresentWebView = false
     
     var body: some View {
         
         let username = viewModel.username.isEmpty ? "Guest" : viewModel.username
+        
         NavigationView {
             VStack {
                 Text("Hello \(username)")
@@ -23,12 +25,6 @@ struct HomeScreen: View {
                 Text("Welcome to the jungle baby!")
                     .font(.body)
                     .padding(.bottom)
-                //        if viewModel.isBusy {
-                //            ProgressView()
-                //        } else {
-                //            Text("Home Screen")
-                //                .navigationTitle("Home")
-                //                .toolbar {
                 
                 VStack {
                     Button(
@@ -60,39 +56,23 @@ struct HomeScreen: View {
                 }
                 
                 VStack {
+                    HStack {
+                        WebviewLinks()
+                        MapLink()
+                    }
                     
-                    NavigationLink(destination: WebviewScreen()) {
-                        Text("Open a Webview")
-                            .font(.title)
-                            .fontWeight(.light)
-                    }.accessibilityIdentifier("HomeScreen.openWebviewBtn")
-                    .padding(.bottom, 5)
-                        
-                    NavigationLink(destination: MapScreen()) {
-                        Text("Verify your location")
-                            .font(.title)
-                            .fontWeight(.light)
-                    }.accessibilityIdentifier("HomeScreen.openLocationBtn")
-                        .padding(.bottom, 5)
-                    
-                    NavigationLink(destination: ImageScannerScreen()) {
-                        Text("Test image injection")
-                            .font(.title)
-                            .fontWeight(.light)
-                    }.accessibilityIdentifier("HomeScreen.openImageInjectionBtn")
-                    .padding(.bottom, 5)
-
-                    NavigationLink(destination: ScrollScreen()) {
-                        Text("Wanna swipe?")
-                            .font(.title)
-                            .fontWeight(.light)
-                    }.accessibilityIdentifier("HomeScreen.openScrollBtn")
+                    HStack {
+                        ScannerLink()
+                        GesturesLink()
+                    }
 
                 }
-                .padding(.top, 100)
+                .padding(.top, 60)
+                .padding(10)
                 
+                Spacer()
                 
-                AppInfoScreen()
+                AppInfoLink()
             }
             
         }

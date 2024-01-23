@@ -32,8 +32,9 @@ class AuthenticationHelper {
         Utils.wait(1)
         app.secureTextFields["Password"].typeText(password)
         //        app.buttons["LoginScreen.showPasswordBtn"].tap()
+        app.buttons["Return"].tap()
         Utils.wait(1)
-        app.buttons["LoginScreen.LoginBtn"].tap()
+        app.buttons["LoginScreen.loginBtn"].tap()
         Utils.wait(1)
 //        takeScreenshot(name: "Logged-In")
     }

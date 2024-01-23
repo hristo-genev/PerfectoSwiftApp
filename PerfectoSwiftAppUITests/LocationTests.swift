@@ -16,6 +16,8 @@ final class LocationTests: XCTestCase {
     
     override func setUpWithError() throws {
         
+        continueAfterFailure = false
+
         // Reset app Location permissions
         let settings = XCUIApplication(bundleIdentifier: "com.apple.Preferences")
         settings.terminate()
@@ -29,7 +31,8 @@ final class LocationTests: XCTestCase {
         app = XCUIApplication()
         app.launch()
         auth = AuthenticationHelper(app)
-        continueAfterFailure = false
+        auth.loginAsGuest()
+        Utils.wait(3)
     }
     
     override func tearDownWithError() throws {
@@ -41,9 +44,7 @@ final class LocationTests: XCTestCase {
     
     
     func testAllowLocationPermissionsPopupShowsMap() throws {
-        auth.loginAsGuest()
-        Utils.wait(3)
-        //        app.swipeUp()
+        
         let alertText = "Allow \"PerfectoSwiftApp\" to use your location?"
         interruptionMonitor = addUIInterruptionMonitor( withDescription: alertText) { (alert) -> Bool in
             print("HristoG test addUIInterruptionMonitor triggered")
@@ -53,7 +54,7 @@ final class LocationTests: XCTestCase {
             }
             return false
         }
-        app.buttons["HomeScreen.openLocationBtn"].tap()
+        app.buttons["HomeScreen.openLocation"].tap()
         Utils.wait(3)
         add(Utils.getScreenshot(name: "Map-Displayed"))
         print(XCUIApplication().debugDescription)
@@ -63,9 +64,6 @@ final class LocationTests: XCTestCase {
     
     func testDenyLocationPermissionsPopupShowsError() throws {
     
-        auth.loginAsGuest()
-        Utils.wait(3)
-        //        app.swipeUp()
         let alertText = "Allow \"PerfectoSwiftApp\" to use your location?"
         interruptionMonitor = addUIInterruptionMonitor( withDescription: alertText) { (alert) -> Bool in
             print("HristoG test addUIInterruptionMonitor triggered")
@@ -75,13 +73,11 @@ final class LocationTests: XCTestCase {
             }
             return false
         }
-        app.buttons["HomeScreen.openLocationBtn"].tap()
+        app.buttons["HomeScreen.openLocation"].tap()
         Utils.wait(3)
         add(Utils.getScreenshot(name: "Map-Displayed"))
         print(XCUIApplication().debugDescription)
         XCTAssertTrue(app.staticTexts["MapScreen.locationErrorMsg"].exists)
         
     }
-
-    
 }
